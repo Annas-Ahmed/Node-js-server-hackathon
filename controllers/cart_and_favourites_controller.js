@@ -1,6 +1,8 @@
-const plantifyProductModel = require("../../models/plantify_prehackathon/plantify_product_schema");
-const cartModel = require("../../models/plantify_prehackathon/cart_schema");
-const favouritesModel = require("../../models/plantify_prehackathon/favourites_schema");
+// const cartModel = require("../../models/cart_schema");
+// const favouritesModel = require("../../models/favourites_schema");
+
+const cartModel = require("../models/cart_schema");
+const favouritesModel = require("../models/favourites_schema");
 
 const cartAndFavuritesProductController = {
   //   products
